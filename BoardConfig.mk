@@ -22,7 +22,7 @@
 #
 
 #
-DEVICE_FOLDER := device/nokia/NB1
+DEVICE_FOLDER := device/nokia/A1N
 #
 
 # Bootloader
@@ -48,7 +48,7 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a73
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := Nokia8,nokia8,Nokia_8,nokia_8,NB1,nb1,Nokia_NB1,nokia_nb1,nokia_NB1,Nokia_nb1,Nokia_Eight,Nokia_eight,nokia_eight,nokia_Eight
+TARGET_OTA_ASSERT_DEVICE := Nokia8,nokia8,Nokia_8,nokia_8,A1N,a1n,Nokia_A1N,nokia_a1n,nokia_A1N,Nokia_a1n,Nokia_Eight,Nokia_eight,nokia_eight,nokia_Eight
 
 # Prebuilt
 TARGET_PREBUILT_KERNEL := $(DEVICE_FOLDER)/prebuilt/Image.gz-dtb

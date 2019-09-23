@@ -39,11 +39,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Partitions (listed in the file) to be wiped under recovery.
 TARGET_RECOVERY_WIPE := \
-    device/nokia/NB1/recovery.wipe.common
+    device/nokia/A1N/recovery.wipe.common
 
 # ROM fstab
 PRODUCT_COPY_FILES += \
-  device/nokia/NB1/rootdir/root/fstab.qcom:root/fstab.qcom
+  device/nokia/A1N/rootdir/root/fstab.qcom:root/fstab.qcom
 
 # A/B updater
 AB_OTA_UPDATER := true
@@ -105,17 +105,17 @@ $(TZDATAPATH)/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 endif
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-   PRODUCT_NAME=NB1 \
-   BUILD_PRODUCT=NB1 \
-   TARGET_DEVICE=NB1 \
-   BUILD_FINGERPRINT=Nokia/NB1_00WW_FIH/NB1:8.1.0/OPR1.170623.026/00WW_4_88B:user/release-keys \
-   PRIVATE_BUILD_DESC="NB1_00WW_FIH-user 8.1.0 OPR1.170623.026 00WW_4_88B release-keys"
+   PRODUCT_NAME=A1N \
+   BUILD_PRODUCT=A1N \
+   TARGET_DEVICE=A1N \
+   BUILD_FINGERPRINT=Nokia/Avenger_00WW/A1N_sprout:9/PPR1.180610.011/00WW_4_14G:user/release-keys \
+   PRIVATE_BUILD_DESC="Avenger_00WW-user 9 PPR1.180610.011 00WW_4_14G release-keys"
 
 
-PRODUCT_DEVICE := NB1
-PRODUCT_NAME := omni_NB1
+PRODUCT_DEVICE := A1N
+PRODUCT_NAME := omni_A1N
 PRODUCT_BRAND := Nokia
-PRODUCT_MODEL := NB1
+PRODUCT_MODEL := A1N
 PRODUCT_MANUFACTURER := Nokia
 
 # Security Patch Hack
